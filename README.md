@@ -1,6 +1,7 @@
-🧠 Customer Retention Intelligence System
+# 🧠Customer Retention Intelligence System
 End-to-End Machine Learning + Decision Engine + Generative AI
-🚀 Overview
+
+## 🚀Overview
 
 Este proyecto desarrolla un sistema completo de predicción y optimización de churn en banca, evolucionando desde un modelo de Machine Learning hacia un motor inteligente de decisiones orientado a negocio.
 
@@ -8,7 +9,7 @@ A diferencia de enfoques tradicionales, el foco no está en predecir churn, sino
 
 💥 maximizar el impacto económico de las estrategias de retención
 
-🎯 Problema de negocio
+## 🎯Problema de negocio
 
 La pérdida de clientes genera impacto directo en ingresos.
 
@@ -24,11 +25,12 @@ Sino:
 
 El sistema integra múltiples capas:
 
-🤖 1. Machine Learning
+## 🤖1. Machine Learning
 Modelos: Logistic Regression, Random Forest, XGBoost
 Evaluación con AUC (capacidad de ranking)
 Feature engineering orientado a negocio
-💰 2. Profit Optimization
+
+## 💰2. Profit Optimization
 Definición de:
 beneficio por cliente retenido
 costo de contacto
@@ -36,7 +38,7 @@ Optimización de threshold para maximizar:
 
 👉 Profit total de campaña
 
-🧠 3. Decision Engine
+## 🧠3. Decision Engine
 
 Sistema que transforma predicciones en acciones:
 
@@ -48,7 +50,7 @@ retención estándar
 
 👉 El modelo deja de ser predictivo → pasa a ser accionable
 
-🤖 4. Generative AI Layer
+## 🤖4. Generative AI Layer
 
 Integración de IA generativa para:
 
@@ -57,46 +59,53 @@ Generar acciones personalizadas de retención
 
 👉 Conecta modelos con áreas de negocio
 
-⚙️ 5. MLOps (MLflow)
+## ⚙️5. MLOps (MLflow)
 Tracking de experimentos
 Versionado de modelos
 Registro de métricas:
 AUC
 Profit
 Threshold óptimo
-🌐 6. Deployment (FastAPI)
+
+## 🌐6. Deployment (FastAPI)
 API REST para predicción en tiempo real
 Endpoint avanzado con:
 probabilidad
 explicación
 acción recomendada
-📊 7. Business Simulation
+
+## 📊7. Business Simulation
 Simulación de campañas de retención
 Estimación de:
 clientes contactados
 clientes retenidos
 tasa de conversión
-🧪 8. A/B Testing
+
+## 🧪8. A/B Testing
 Comparación entre:
 estrategia random
 estrategia basada en modelo
 
 👉 Medición de uplift real
 
-📉 9. Monitoring & Risk
+## 📉9. Monitoring & Risk
 Detección de drift
 Logging de predicciones
 Evaluación de fairness (sesgos)
-💳 10. Customer Value Integration
+
+## 💳10. Customer Value Integration
 Incorporación de CLV (Customer Lifetime Value)
 Priorización de clientes de alto valor económico
-🔍 11. Explainability (SHAP)
+
+## 🔍11. Explainability (SHAP)
 Interpretación de variables
 Explicabilidad del modelo
-🏗️ Arquitectura
+
+## 🏗️Arquitectura
 Data → Feature Engineering → Model → Profit Optimization  
 → Decision Engine → API → Monitoring → Business Impact
-🧪 Stack tecnológico
+
+## 🧪Stack tecnológico
 Python
 Pandas / NumPy
 Scikit-learn
@@ -120,16 +129,18 @@ Para construir un sistema que:
 
 toma decisiones optimizadas y accionables
 
-📈 Resultados
+## 📈Resultados
 Modelo con alta capacidad de discriminación (AUC)
 Optimización de campañas de retención
 Mejora en ROI mediante selección inteligente de clientes
 Sistema listo para integración en entornos productivos
-🚀 Cómo ejecutar
+
+## 🚀Cómo ejecutar
 pip install -r requirements.txt
 python train.py
 mlflow ui
 uvicorn app:app --reload
-🧠 Autor
+
+## 🧠Autor
 
 Proyecto desarrollado con foco en aplicaciones reales de Machine Learning en banca, combinando analítica avanzada, MLOps e inteligencia artificial aplicada.
